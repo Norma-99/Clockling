@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C87333826A8977700E1CB24 /* ClocklingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87333726A8977700E1CB24 /* ClocklingApp.swift */; };
+		4C10E21326A8C04F0082002C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10E21226A8C04F0082002C /* AppDelegate.swift */; };
+		4C10E21526A8C0AE0082002C /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10E21426A8C0AE0082002C /* StatusBarController.swift */; };
+		4C10E21726A8C1060082002C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C10E21626A8C1060082002C /* Main.storyboard */; };
 		4C87333A26A8977700E1CB24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C87333926A8977700E1CB24 /* ContentView.swift */; };
 		4C87333C26A8977800E1CB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C87333B26A8977800E1CB24 /* Assets.xcassets */; };
 		4C87333F26A8977800E1CB24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C87333E26A8977800E1CB24 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C10E21226A8C04F0082002C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C10E21426A8C0AE0082002C /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		4C10E21626A8C1060082002C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4C87333426A8977700E1CB24 /* Clockling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clockling.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C87333726A8977700E1CB24 /* ClocklingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClocklingApp.swift; sourceTree = "<group>"; };
 		4C87333926A8977700E1CB24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C87333B26A8977800E1CB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C87333E26A8977800E1CB24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,9 +57,11 @@
 		4C87333626A8977700E1CB24 /* Clockling */ = {
 			isa = PBXGroup;
 			children = (
-				4C87333726A8977700E1CB24 /* ClocklingApp.swift */,
+				4C10E21226A8C04F0082002C /* AppDelegate.swift */,
+				4C10E21426A8C0AE0082002C /* StatusBarController.swift */,
 				4C87333926A8977700E1CB24 /* ContentView.swift */,
 				4C87333B26A8977800E1CB24 /* Assets.xcassets */,
+				4C10E21626A8C1060082002C /* Main.storyboard */,
 				4C87334026A8977800E1CB24 /* Info.plist */,
 				4C87334126A8977800E1CB24 /* Clockling.entitlements */,
 				4C87333D26A8977800E1CB24 /* Preview Content */,
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C10E21726A8C1060082002C /* Main.storyboard in Resources */,
 				4C87333F26A8977800E1CB24 /* Preview Assets.xcassets in Resources */,
 				4C87333C26A8977800E1CB24 /* Assets.xcassets in Resources */,
 			);
@@ -140,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C10E21326A8C04F0082002C /* AppDelegate.swift in Sources */,
+				4C10E21526A8C0AE0082002C /* StatusBarController.swift in Sources */,
 				4C87333A26A8977700E1CB24 /* ContentView.swift in Sources */,
-				4C87333826A8977700E1CB24 /* ClocklingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
